@@ -2,7 +2,6 @@
 	background-color: $dark;
 	&__container {
 		display: flex;
-		flex-direction: row;
 		justify-content: flex-end;
 	}
 	&__list {
@@ -12,6 +11,9 @@
 	&__item {
 		display: flex;
 		margin-right: 1rem;
+		&:last-child {
+			margin-right: 0;
+		}
 	}
 	&__link {
 		color: $white;

@@ -1,0 +1,15 @@
+.phone {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	&__number {
+		font-family: $title;
+		color: $gray;
+		font-size: 2.25rem;
+	}
+	&__callback {
+		color: $dark;
+		font-weight: 300;
+		text-decoration: underline;
+	}
+}

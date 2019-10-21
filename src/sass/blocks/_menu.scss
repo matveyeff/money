@@ -1,0 +1,14 @@
+.menu {
+	display: flex;
+	&__list {
+		display: flex;
+	}
+	&__item {
+		margin-right: 1.5625rem;
+	}
+	&__link {
+		font-family: $title;
+		color: $gray;
+		font-size: 1.125rem;
+	}
+}

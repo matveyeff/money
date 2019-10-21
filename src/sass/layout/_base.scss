@@ -59,9 +59,6 @@ h6 {
 .container {
 	position: relative;
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
 	width: 100%;
 	max-width: 1240px;
 	height: 100%;
@@ -78,7 +75,10 @@ h6 {
 .title {
 	font-family: $title;
 	color: $gray;
-	font-size: 4.5rem;
+	font-size: 3.75rem;
 	margin-bottom: 20px;
 	line-height: 1;
+	&_white {
+		color: $white;
+	}
 }

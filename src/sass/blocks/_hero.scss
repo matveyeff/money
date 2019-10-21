@@ -1,0 +1,32 @@
+.hero {
+	background: url(../img/bg-hero.jpg) center / cover no-repeat;
+	&__wrap {
+		position: relative;
+		height: 100vh;
+		&::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			bottom: 0;
+			background: linear-gradient(45deg, rgba(0,0,0,0.85) 10%,rgba(0,0,0,0) 100%);
+		}
+	}
+	&__content {
+		display: flex;
+		align-items: center;
+		height: 100%;
+	}
+	&__left {
+		flex-basis: 50%;
+	}
+	&__right {
+		flex-basis: 50%;
+	}
+	&__title {
+		display: flex;
+		border-left: 10px solid $accent;
+		padding-left: 0.625rem;
+	}
+}
