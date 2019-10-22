@@ -1,6 +1,7 @@
 .hero {
 	background: url(../img/bg-hero.jpg) center / cover no-repeat;
 	height: 100vh;
+	padding: 0;
 	&__container {
 		display: flex;
 		height: 100%;
@@ -31,6 +32,7 @@
 	}
 	&__title {
 		display: flex;
+		font-size: 4.0625rem;
 		border-left: 10px solid $accent;
 		padding-left: 0.625rem;
 	}
