@@ -1,0 +1,13 @@
+.footer-links {
+	&__list	{
+		display: flex;
+		flex-direction: column;
+	}
+	&__item {
+		margin-bottom: .625rem;
+	}
+	&__link {
+		font-weight: 300;
+		color: $gray;
+	}
+}
