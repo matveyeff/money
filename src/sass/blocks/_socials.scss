@@ -1,0 +1,16 @@
+.socials {
+	&__list {
+		display: flex;
+		align-items: center;
+	}
+	&__item	{
+		margin-right: .9375rem;
+	}
+	&__link {
+		display: flex;
+		font-family: 'FA-b';
+		font-size: 1.5625‬rem;
+		color: $gray;
+		background-color: $dark;
+	}
+}
