@@ -1,0 +1,54 @@
+.order {
+	background-color: rgba(0,0,0,.5);
+	padding: 2rem;
+	&__row {
+		margin-bottom: 2rem;
+		&_flex {
+			display: flex;
+		}
+	}
+	&__col {
+		display: flex;
+		flex-direction: column;
+		margin-right: 1rem;
+	}
+	&__input {
+		font-family: $title;
+		font-size: 1.5rem;
+		color: $dark;
+		padding: .1875rem;
+		border-radius: 3px;
+	}
+	&__title {
+		font-family: $title;
+		font-size: 1.5rem ;
+		color: $white;
+		margin-bottom: 1rem;
+		&_mr {
+			margin-right: 1rem;
+		}
+	}
+	&__btn {
+		font-family: $title;
+		font-size: 1.5rem;
+		color: $white;
+		cursor: pointer;
+		margin-right: 1rem;
+		&_active {
+			position: relative;
+			&::after {
+				content: '';
+				width: 100%;
+				height: 4px;
+				background-color: $accent;
+				position: absolute;
+				left: 0;
+				bottom: -5px;
+			}
+		}
+	}
+	&__button {
+		font-family: $title;
+		font-size: 1.25rem;
+	}
+}
